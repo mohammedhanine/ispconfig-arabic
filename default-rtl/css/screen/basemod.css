@@ -26,12 +26,12 @@
 	
 	/* (en) Marginal areas & page background */
 	/* (de) Randbereiche & Seitenhintergrund */
-	body { background: #EEEEEE url("../../images/screen_bg.png") repeat-x top left fixed; padding: 10px 0; }
+	body { background: #EEEEEE url("../../images/screen_bg.png") repeat-x top right fixed; padding: 10px 0; }
 	
 	/* (en) Centering layout in old IE-versions */
 	/* (de) Zentrierung des Layouts in alten IE-versionen */
 	body { text-align: center; }
-	#page_margins { text-align:left; margin: 0 auto; }
+	#page_margins { text-align:right; margin: 0 auto; }
 	
 	/* (en) Layout: width, background, borders */
 	/* (de) Layout: Breite, Hintergrund, Rahmen */
@@ -50,38 +50,38 @@
 	/* (de) Gestaltung der Hauptelemente des Layouts */
 	#header {
 	 color: #faf0e6;
-	 padding: 15px 2em 5px 20px;
-	 background: #9a9a9a url(../../images/header_bg.png) repeat-x top left;
+	 padding: 15px 20px 5px 2em;
+	 background: #9a9a9a url(../../images/header_bg.png) repeat-x top right;
 	}
 	
 	/* (en) Text Alignment for #topnav content */
 	/* (de) Textausrichtung für #topnav Inhalte */
-	#topnav { text-align: left; } 
+	#topnav { text-align: right; } 
 	
 	/* (en) Absolute positioning only within #header */
 	/* (de) Absolute Positionierung erfolgt nur innerhalb von #header */
 	#header #topnav {
 	 position: absolute;
 	 top: 0px;
-	 left: 0px;
+	 right: 0px;
 	}
 	
 	/* (en) Text Alignment for #topnav content */
 	/* (de) Textausrichtung für #topnav Inhalte */
-	#topsubnav { text-align: right; } 
+	#topsubnav { text-align: left; } 
 	
 	/* (en) Absolute positioning only within #header */
 	/* (de) Absolute Positionierung erfolgt nur innerhalb von #header */
 	#header #topsubnav {
 	 position:absolute;
 	 top: 10px;
-	 right: 10px;
+	 left: 10px;
 	}
 	
 	/* (en) adjustment of main navigation */
 	/* (de) Anpassung der Hauptnavigation */
-	#nav ul { margin-left: 20px; }
-	#nav_main { background: #9a9a9a repeat-x top left; }
+	#nav ul { margin-right: 20px; }
+	#nav_main { background: #9a9a9a repeat-x top right; }
 	
 	#main { background: #fff;padding:10px 0; }
 	
@@ -112,10 +112,10 @@
 	
 	
 	#col1 { width: 25%; }
-	#col1_content { padding: 10px 10px 10px 20px; }
+	#col1_content { padding: 10px 20px 10px 10px; }
 	
 	#col2 { width: 25%; }
-	#col2_content { padding: 10px 20px 10px 10px; }
+	#col2_content { padding: 10px 10px 10px 20px; }
 	
 	#col3 { margin: 0 25%; }
 	#col3_content { padding: 10px; }
