@@ -1,8 +1,19 @@
 ترجمة ISPConfig 3
 ======
 
-كيفية الترجمة
+تغير القالب
+==
 
+system > Edit user > admin > Design > default-rtl
+
+
+تغيير اللغة
+==
+
+System > Language editor > Import >
+
+إذا وجدة مشكلة
+==
 حذف ملفات الأرجنتين لأنها لها ترميز أخر وليس مكانها الأصلي
 
 http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
