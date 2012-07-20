@@ -2754,14 +2754,14 @@ $wb["add_new_record_txt"] = 'Add new Account';
 ?>
 --|mail|ar|ar_spamfilter_users_list.lng
 <?php
-$wb["list_head_txt"] = 'Spamfilter Users';
-$wb["local_txt"] = 'Local';
+$wb["list_head_txt"] = 'مستخدمين تصفية الرسائل غير المرغوبة';
+$wb["local_txt"] = 'محلي';
 $wb["server_id_txt"] = 'الخادم';
-$wb["priority_txt"] = 'Priority';
-$wb["policy_id_txt"] = 'Policy';
-$wb["fullname_txt"] = 'Name';
-$wb["email_txt"] = 'Email';
-$wb["add_new_record_txt"] = 'Add Spamfilter User';
+$wb["priority_txt"] = 'الأولوية';
+$wb["policy_id_txt"] = 'سياسة';
+$wb["fullname_txt"] = 'اسم';
+$wb["email_txt"] = 'البريد';
+$wb["add_new_record_txt"] = 'أضف مستخدم تصفية لرسائل الغير المرغوبة';
 ?>
 --|sites|ar|ar_user_quota_stats_list.lng
 <?php
