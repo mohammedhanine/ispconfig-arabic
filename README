@@ -1,0 +1,8 @@
+ترجمة إلى العربية
+
+
+كيفية الترجمة
+حذف ملفات الأرجنتين لأنها لها ترميز أخر وفيها مشاك
+cd /usr/local/ispconfig
+find interface -name ar*.lng | xargs rm -f
+نضيف الغة العربية
