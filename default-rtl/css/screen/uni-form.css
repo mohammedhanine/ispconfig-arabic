@@ -4,18 +4,18 @@
 
   /* Generals */
   .uniForm fieldset{}
-    .uniForm fieldset legend{ color: #333; font-weight: bold; font-size: 100%; margin: 0; padding: 1.5em 1.5em 1.5em 0; }
+    .uniForm fieldset legend{ color: #333; font-weight: bold; font-size: 100%; margin: 0; padding: 1.5em 0 1.5em 1.5em; }
     
     /* This is the main unit that contains our form elements */
     .uniForm .ctrlHolder{ padding: 3px; border-bottom: 1px dotted #dfdfdf; }
     
     .uniForm .buttonHolder{ 
-		text-align: left; 
-		background: #CEDEEF url("../../images/buttonHolder_bg.gif") no-repeat right;
+		text-align: right; 
+		background: #CEDEEF url("../../images/buttonHolder_bg.gif") no-repeat left;
 		margin: 3em 0 1em;
 		padding: 8px;
 	 }
-      .uniForm .resetButton{ float: left; }
+      .uniForm .resetButton{ float: right; }
       .uniForm .primaryAction{ font-weight: bold; }
     
     /* This class gets added to div.ctrlHolder to highlight the row */
@@ -24,8 +24,8 @@
       /* .inlineLabel is used for inputs within labels - checkboxes and radio buttons */
       .uniForm .inlineLabel input,
       .uniForm .inlineLabels .inlineLabel input,
-      .uniForm .blockLabels .inlineLabel input{ float: left; margin: 0 .4em 0 0; }
-        .uniForm .inlineLabel span{ float: left; width: 90%; }
+      .uniForm .blockLabels .inlineLabel input{ float: right; margin: 0 0 0 .4em; }
+        .uniForm .inlineLabel span{ float: right; width: 90%; }
         
 /* ------------------------------------------------------------------------------ */
 
@@ -55,7 +55,7 @@
         .uniForm .multiField .inlineLabel,
         .uniForm .blockLabels .multiField .inlineLabel{ display: block; margin: 0 0 .5em 0; }
         .uniForm .multiField .blockLabel,
-        .uniForm .blockLabels .multiField .blockLabel{ width: 30%; margin: 0 10px 0 0; }
+        .uniForm .blockLabels .multiField .blockLabel{ width: 30%; margin: 0 0 0 10px; }
         .uniForm .multiField .blockLabel .textInput,
         .uniForm .multiField .blockLabel .selectInput,
         .uniForm .multiField .blockLabel select,
@@ -69,7 +69,7 @@
     .uniForm .inlineLabels .ctrlHolder{}
     
     .uniForm .inlineLabels label,
-    .uniForm .inlineLabels .label{ width: 20%; /* <- Required property */ margin: .3em 2% 0 0; /* <- Required property */ }
+    .uniForm .inlineLabels .label{ width: 20%; /* <- Required property */ margin: .3em 0 0 2%; /* <- Required property */ }
     
     .uniForm .inlineLabels .textInput,
     .uniForm .inlineLabels .fileUpload{ width: 35%; /* <- Required property */ }
@@ -79,11 +79,11 @@
     
     .uniForm .inlineLabels textarea{  width: 35%; /* <- Required property */ height: 12em; }
 
-    .uniForm .inlineLabels .formHint{ margin-top: 0; margin-left: 22%; font-size: .9em; color: #777; position: static; }
+    .uniForm .inlineLabels .formHint{ margin-top: 0; margin-right: 22%; font-size: .9em; color: #777; position: static; }
     
     .uniForm .inlineLabels .multiField{ width: 60%; /* <- Required property */ margin: 0 0 .3em 0; }
       .uniForm .inlineLabels .multiField .inlineLabel{ display: block; margin: 0 0 .5em 0; }
-      .uniForm .inlineLabels .multiField .blockLabel{ float: left; width: 26%; margin: 0 3% 0 0; }
+      .uniForm .inlineLabels .multiField .blockLabel{ float: right; width: 26%; margin: 0 0 0 3%; }
       .uniForm .inlineLabels .multiField .blockLabel .textInput,
       .uniForm .inlineLabels .multiField .blockLabel .selectInput,
       .uniForm .inlineLabels .multiField .blockLabel select{ width: 100%; margin: .3em 0 0 0; }
@@ -94,10 +94,10 @@
 .uniForm div.focused .formHint{ color: #333; }
 
 /* Columns (they are floated left by default) */
-.uniForm .col{ width: 37.9%; /* <- Required property */ margin: 0 2% 20px 0; }
+.uniForm .col{ width: 37.9%; /* <- Required property */ margin: 0 0 20px 2%; }
 /* Use .first and .last classes to control the layout/spacing of your columns */
-.uniForm .col.first{ width: 39%; /* <- Required property */ float: left; clear: none; }
-.uniForm .col.last{ width: 39%; /* <- Required property */ float: right; clear: none; margin-right: 0; }
+.uniForm .col.first{ width: 39%; /* <- Required property */ float: right; clear: none; }
+.uniForm .col.last{ width: 39%; /* <- Required property */ float: left; clear: none; margin-left: 0; }
 
 /* Messages */
 .uniForm #errorMsg{ background: #ffdfdf; border: 1px solid #df7d7d; border-width: 1px 0; margin: 1.5em 0 1.5em 0; padding: 7px; }

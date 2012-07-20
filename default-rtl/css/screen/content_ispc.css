@@ -33,7 +33,7 @@
 	}
 	.tabbox_tabs li {
     	display: inline;
-    	margin: 0 2px 0 0;
+    	margin: 0 0 0 2px;
 	}
 	.tabbox_tabs a {
     	padding: 0 1em;
@@ -84,7 +84,7 @@
 	}
 	table.list thead th { font-size: 10px; }
 	table.list tbody { border: 1px solid #d3d3d3 !important; }
-	table.list tfoot td { text-align: center;  background: #f8f8f8 url(../../images/lists_tfoot_bg.png) repeat-x bottom left;  padding: 24px 8px 8px 8px; }
+	table.list tfoot td { text-align: center;  background: #f8f8f8 url(../../images/lists_tfoot_bg.png) repeat-x bottom right;  padding: 24px 8px 8px 8px; }
 	table.list .tbl_row_even { background: #fcfcfc; }
 	table.list .tbl_row_uneven { background: #f0f8ff; }
 	table.list tr:hover { background: #fffacd; }
@@ -92,13 +92,13 @@
     /* Password Strength */
     #passBar {
         width: 101px; height: 10px;
-        background: url(../../images/meter_bg.gif) repeat-x bottom left;
+        background: url(../../images/meter_bg.gif) repeat-x bottom right;
         margin: 2px 0;
-        float: left;
+        float: right;
     }
     #passText {
         padding: 0;
-        float: left;
+        float: right;
     }
   
 	/* Systemmonitor */
@@ -106,7 +106,7 @@
 		margin: 10px 5px;
 		font-family: Consolas, "Lucida Console", "Courier New", monospace;
 		font-size: 0.9em;
-		float: left;
+		float: right;
 		width: 100%;
     }
     .systemmonitor-state.state-no_state {
@@ -138,43 +138,43 @@
 		background-color: #ff7f7f;
     }
     .systemmonitor-state.state-no_state-ve {
-		float: left;
+		float: right;
 		width: 213px;
 		border-top: 4px solid #95A19F;
 		background-color: #f8f8ff;
     }
     .systemmonitor-state.state-unknown-ve {
-		float: left;
+		float: right;
 		width: 213px;
 		border-top: 4px solid #30302e;
 		background-color: #cecfc5;
     }
     .systemmonitor-state.state-ok-ve {
-		float: left;
+		float: right;
 		width: 213px;
 		border-top: 4px solid #23fb00;
 		background-color: #adffa2;
     }
     .systemmonitor-state.state-info-ve {
-		float: left;
+		float: right;
 		width: 213px;
 		border-top: 4px solid #183e99;
 		background-color: #d4e2ff;
     }
     .systemmonitor-state.state-warning-ve {
-		float: left;
+		float: right;
 		width: 213px;
 		border-top: 4px solid #ffa800;
 		background-color: #ffda93;
     }
     .systemmonitor-state.state-critical-ve {
-		float: left;
+		float: right;
 		width: 213px;
 		border-top: 4px solid #ff0000;
 		background-color: #ffb9b9;
     }
     .systemmonitor-state.state-error-ve {
-		float: left;
+		float: right;
 		width: 213px;
 		border-top: 4px solid #ff0000;
 		background-color: #ff7f7f;
@@ -192,13 +192,13 @@
     .systemmonitor-device.device-ve {
 		background-image: url("../../icons/x64/server.png");
 		width: 213px;
-		float: left;
+		float: right;
 		border: 1px dashed #aaaaaa;
 		border-top: none;
 	}
 
     .systemmonitor-content.icons32 {
-		padding:2px 10px 2px 56px;
+		padding:2px 56px 2px 10px;
         background-repeat: no-repeat;
         background-position: 12px 4px;
     }
@@ -230,7 +230,7 @@
 
 	/* Dashboard */
 	.dashboard-modules {
-		float:left;
+		float:right;
 		width:60px;
 		height: 60px;
 		border:1px dotted #888888;
@@ -277,12 +277,12 @@
 	/* BUTTONS */
 	.buttons a, .buttons button{
 	    display:block;
-	    float:left;
-	    margin:0 7px 0 0;
+	    float:right;
+	    margin:0 0 0 7px;
 	    background-color:#f5f5f5;
 	    border:1px solid #777777;
 	    border-top: 1px solid #c8c8c8;
-	    border-left:1px solid #c8c8c8;
+	    border-right:1px solid #c8c8c8;
 	
 	    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
 	    font-size:90%;
@@ -291,22 +291,22 @@
 	    font-weight:bold;
 	    color:#565656;
 	    cursor:pointer;
-	    padding:5px 10px 6px 7px; /* Links */
+	    padding:5px 7px 6px 10px; /* Links */
 	}
 	.buttons button{
 	    width:auto;
 	    overflow:visible;
-	    padding:4px 10px 3px 7px; /* IE6 */
+	    padding:4px 7px 3px 10px; /* IE6 */
 	}
 	.buttons button[type]{
-	    padding:5px 10px 5px 7px; /* Firefox */
+	    padding:5px 7px 5px 10px; /* Firefox */
 	    line-height:17px; /* Safari */
 	}
 	*:first-child+html button[type]{
-	    padding:4px 10px 3px 7px; /* IE7 */
+	    padding:4px 7px 3px 10px; /* IE7 */
 	}
 	.buttons button img, .buttons a img{
-	    margin:0 3px -3px 0 !important;
+	    margin:0 0 -3px 3px !important;
 	    padding:0;
 	    border:none;
 	    width:16px;
@@ -358,22 +358,22 @@
 	/* Button with icon and text */
 	.iconstxt {
 		background-repeat: no-repeat; 
-		background-position: 4px center;
+		background-position: right center;
 	}
-	.iconstxt span { padding-left: 20px; }
+	.iconstxt span { padding-right: 20px; }
 	.iconstxt.icoPositive { background-image: url("../../icons/x16/tick_circle_frame.png"); }
 	.iconstxt.icoNegative { background-image: url("../../icons/x16/cross_circle_frame.png"); }
-	.iconstxt.icoAdd { background-image: url(../../icons/x16/plus_circle_frame.png); }
+	.iconstxt.icoAdd { background-image: url("../../icons/x16/plus_circle_frame.png"); }
 	.iconstxt.icoKey { background-image: url("../../icons/x16/key.png"); }
 	.iconstxt.icoDelete { background-image: url("../../icons/x16/minus_circle_frame.png"); }
 	
 	/* Button with icon and without text */
 	.icons16 span { display: none; }
-	a.icons16 { height: 18px; width: 18px; padding: 0; background-repeat: no-repeat; background-position: 1px 1px;}
-	button.icons16 { height: 20px; width: 20px; padding: 0; background-repeat: no-repeat; background-position: 1px 1px;}
+	a.icons16 { height: 18px; width: 18px; padding: 0; background-repeat: no-repeat; background-position: right 1px;}
+	button.icons16 { height: 20px; width: 20px; padding: 0; background-repeat: no-repeat; background-position: right 1px;}
 
 	.icons16.icoDelete { background-image: url("../../icons/x16/minus_circle_frame.png"); }
-	.icons16.icoFilter { background-image: url(../../icons/x16/funnel.png); }
+	.icons16.icoFilter { background-image: url("../../icons/x16/funnel.png"); }
 	.icons16.icoEdit { background-image: url("../../icons/x16/wrench.png"); }
 	.icons16.icoDbAdmin { background-image: url("../../icons/x16/database.png"); }
 	.icons16.icoLoginAs { background-image: url("../../icons/x16/user_go.png"); }
@@ -383,7 +383,7 @@
 
 	.blockLabel.email_at {
 		width: 20px !important;
-		margin: 1.6em 0.3em 0 0 !important
+		margin: 1.6em 0 0 0.3em !important
 	}
 	.textDisplay { display: block; }
 	
@@ -408,16 +408,16 @@
 
 	/* --- */
 	
-	a[href $='#logout'] { padding-right: 18px; background: transparent url("../../icons/x16/logout.png") no-repeat right top !important;	}
+	a[href $='#logout'] { padding-left: 18px; background: transparent url("../../icons/x16/logout.png") no-repeat left top !important;	}
 	
 	/* Select Menu with Images */
 	select.withicons option {
 		background-repeat:no-repeat;
 		background-position: 1px;
-		padding-left:24px;
+		padding-right:24px;
 	}	
-	select.withicons option[value="AD"] { background-image:url(../../icons/flags/ad.png); }
-	select.withicons option[value="AE"] { background-image:url(../../icons/flags/ae.png); }
+    select.withicons option[value="AD"] { background-image:url(../../icons/flags/ad.png); }
+    select.withicons option[value="AE"] { background-image:url(../../icons/flags/ae.png); }
     select.withicons option[value="AF"] { background-image:url(../../icons/flags/af.png); }
     select.withicons option[value="AG"] { background-image:url(../../icons/flags/ag.png); }
     select.withicons option[value="AI"] { background-image:url(../../icons/flags/ai.png); }
@@ -660,7 +660,7 @@
     select.withicons option[value="ZM"] { background-image:url(../../icons/flags/zm.png); }
     select.withicons option[value="ZW"] { background-image:url(../../icons/flags/zw.png); }
 	
-	select.withicons option[value="ad"] { background-image:url(../../icons/flags/ad.png); }
+    select.withicons option[value="ad"] { background-image:url(../../icons/flags/ad.png); }
     select.withicons option[value="ae"] { background-image:url(../../icons/flags/ae.png); }
     select.withicons option[value="af"] { background-image:url(../../icons/flags/af.png); }
     select.withicons option[value="ag"] { background-image:url(../../icons/flags/ag.png); }

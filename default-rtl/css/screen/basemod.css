@@ -76,6 +76,7 @@
 	 position:absolute;
 	 top: 10px;
 	 left: 10px;
+	 overflow: hidden;
 	}
 	
 	/* (en) adjustment of main navigation */

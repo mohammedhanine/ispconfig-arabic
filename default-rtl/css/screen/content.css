@@ -74,16 +74,16 @@
 	
 	/* ### Lists | Listen  #### */
 	
-	ul, ol, dl { line-height: 1.5em; margin: 0 0 1em 1em }
-	li { margin-left: 1.5em; line-height: 1.5em }
+	ul, ol, dl { line-height: 1.5em; margin: 0 1em 1em 0 }
+	li { margin-right: 1.5em; line-height: 1.5em }
 	
 	dt { font-weight: bold }
-	dd { margin: 0 0 1em 2em }
+	dd { margin: 0 2em 1em 0 }
 	
 	/* ### text formatting | Textauszeichnung ### */
 	
 	cite, blockquote { font-style:italic }
-	blockquote { margin: 0 0 1em 1.5em }
+	blockquote { margin: 0 1.5em 1em 0 }
 	
 	strong,b { font-weight: bold }
 	em,i { font-style:italic }
@@ -117,8 +117,8 @@
 	.important {background: #ffd; padding: 1em; border-top: 1px #ddb dotted; border-bottom: 1px #ddb dotted;}
 	.warning {background: #fdd; padding: 1em; border-top: 1px #dbb dotted; border-bottom: 1px #dbb dotted;}
 	
-	.float_left { float: left; display:inline; margin-right: 1em; margin-bottom: 0.15em;  }
-	.float_right { float: right; display:inline; margin-left: 1em; margin-bottom: 0.15em;  }
+	.float_left { float: right; display:inline; margin-left: 1em; margin-bottom: 0.15em;  }
+	.float_right { float: left; display:inline; margin-right: 1em; margin-bottom: 0.15em;  }
 	.center { text-align:center; margin: 0.5em auto }
 	
 	/**
@@ -175,7 +175,7 @@
 	table.full { width: 100%; }
 	table.fixed { table-layout:fixed }
 	
-	th,td { padding: 0.5em;text-align:left; }
+	th,td { padding: 0.5em;text-align:right; }
 	thead th { background: #444 url(../../images/lists_thead_bg.png) repeat-x; color: #fff }
 	tbody th { background: #ccc; color: #333 }
 	tbody th.sub { background: #ddd; color: #333 }
