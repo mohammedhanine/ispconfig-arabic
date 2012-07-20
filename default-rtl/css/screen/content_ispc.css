@@ -413,7 +413,7 @@
 	/* Select Menu with Images */
 	select.withicons option {
 		background-repeat:no-repeat;
-		background-position: 1px;
+		background-position: right;
 		padding-right:24px;
 	}	
     select.withicons option[value="AD"] { background-image:url(../../icons/flags/ad.png); }

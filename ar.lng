@@ -253,14 +253,14 @@ $wb['nameserver_desc_txt'] = '(separated by whitespace)';
 $wb['capability_txt'] = 'Capability';
 $wb['template_name_txt'] = 'إسم القالب';
 $wb['diskspace_txt'] = 'مساحة القرص';
-$wb['ram_txt'] = 'RAM (مضمون)';
-$wb['ram_burst_txt'] = 'RAM (burst)';
+$wb['ram_txt'] = 'RAM (مضمونة)';
+$wb['ram_burst_txt'] = 'RAM (القصوى)';
 $wb['cpu_units_txt'] = 'CPU units';
 $wb['cpu_num_txt'] = 'CPU cores';
 $wb['cpu_limit_txt'] = 'CPU limit %';
 $wb['io_priority_txt'] = 'I/O priority';
 $wb['active_txt'] = 'Active';
-$wb['description_txt'] = 'Description';
+$wb['description_txt'] = 'وصف';
 $wb['numproc_desc_txt'] = 'Number of processes and threads.';
 $wb['numtcpsock_desc_txt'] = 'Number of TCP sockets.';
 $wb['numothersock_desc_txt'] = 'Number of sockets other than TCP.';
@@ -285,8 +285,8 @@ $wb['swappages_desc_txt'] = 'Amount of swap space to show in container.';
 $wb['create_dns_txt'] = 'Create DNS for hostname';
 $wb['template_name_error_empty'] = 'إسم القالب فارغ.';
 $wb['diskspace_error_empty'] = 'Diskspace is empty.';
-$wb['ram_error_empty'] = 'RAM (guaranteed) is empty.';
-$wb['ram_burst_error_empty'] = 'RAM (burst) is empty.';
+$wb['ram_error_empty'] = 'RAM (مضمونة) فارغة.';
+$wb['ram_burst_error_empty'] = 'RAM (burst) فارغة.';
 $wb['cpu_units_error_empty'] = 'CPU units is empty.';
 $wb['cpu_num_error_empty'] = 'CPU cores is empty.';
 $wb['cpu_limit_error_empty'] = 'CPU limit % is empty.';
@@ -358,18 +358,18 @@ $wb['cpu_num_txt'] = 'CPU عدد';
 $wb['cpu_limit_txt'] = 'CPU limit';
 $wb['io_priority_txt'] = 'I/O الأولوية';
 $wb['nameserver_txt'] = 'خادم الأسماء(dns)';
-$wb['nameserver_desc_txt'] = '(separated by whitespace)';
+$wb['nameserver_desc_txt'] = '(أفصل بينها بفاصلة ,)';
 $wb['capability_txt'] = 'Capability';
 $wb['server_id_txt'] = 'الخادم المضيف';
-$wb['ostemplate_id_txt'] = 'OSTemplate';
+$wb['ostemplate_id_txt'] = 'قالب نظام التشغيل';
 $wb['template_id_txt'] = 'القالب';
 $wb['ip_address_txt'] = 'عنوان إي بي';
 $wb['hostname_txt'] = 'Hostname';
 $wb['vm_password_txt'] = 'VM Password';
 $wb['start_boot_txt'] = 'Start at boot';
-$wb['active_txt'] = 'Active';
-$wb['description_txt'] = 'Description';
-$wb['client_group_id_txt'] = 'Client';
+$wb['active_txt'] = 'تفعيل';
+$wb['description_txt'] = 'وصف';
+$wb['client_group_id_txt'] = 'العميل';
 $wb['veid_txt'] = 'VEID';
 $wb['create_dns_txt'] = 'Create DNS for hostname';
 $wb['active_until_date_txt'] = 'Active until date';
@@ -379,9 +379,9 @@ $wb['vm_password_error_empty'] = 'VM Password is empty.';
 $wb['veid_error_empty'] = 'VEID is empty.';
 $wb['veid_error_unique'] = 'VEID does already exist.';
 $wb['diskspace_error_empty'] = 'Diskspace is empty.';
-$wb['ram_error_empty'] = 'RAM (guaranteed) is empty.';
-$wb['ram_burst_error_empty'] = 'RAM (burst) is empty.';
-$wb['cpu_units_error_empty'] = 'CPU units is empty.';
+$wb['ram_error_empty'] = 'RAM (مضمونة) is empty.';
+$wb['ram_burst_error_empty'] = 'RAM (القصوى) فارغة.';
+$wb['cpu_units_error_empty'] = 'CPU units فارغة.';
 $wb['cpu_num_error_empty'] = 'CPU number is empty.';
 $wb['cpu_limit_error_empty'] = 'CPU limit is empty.';
 $wb['io_priority_error_empty'] = 'I/O priority is empty.';
@@ -417,13 +417,13 @@ $wb['limit_spamfilter_wblist_txt'] = 'Max. number of spamfilter white / blacklis
 $wb['limit_spamfilter_user_txt'] = 'Max. number of spamfilter users';
 $wb['limit_spamfilter_policy_txt'] = 'Max. number of spamfilter policys';
 $wb['default_mailserver_txt'] = 'Default Mailserver';
-$wb['company_name_txt'] = 'Company name';
-$wb['contact_name_txt'] = 'Contact name';
+$wb['company_name_txt'] = 'اسم الشركة';
+$wb['contact_name_txt'] = 'إسم الإتصال';
 $wb['username_txt'] = 'اسم المستخدم';
 $wb['password_txt'] = 'كلمة المرور';
-$wb['password_strength_txt'] = 'Password strength';
+$wb['password_strength_txt'] = 'قوة كلمة المرور';
 $wb['language_txt'] = 'اللغة';
-$wb['usertheme_txt'] = 'Theme';
+$wb['usertheme_txt'] = 'القالب';
 $wb['street_txt'] = 'الشارع';
 $wb['zip_txt'] = 'الرقم البريدي';
 $wb['city_txt'] = 'المدينة';
@@ -450,7 +450,7 @@ $wb['limit_cron_frequency_txt'] = 'Min. delay between executions';
 $wb['ip_address_txt'] = 'ip_address';
 $wb['limit_client_error_notint'] = 'The sub client limit must be a number.';
 $wb['firstname_error_empty'] = 'Firstname is empty.';
-$wb['contact_error_empty'] = 'Contact name is empty.';
+$wb['contact_error_empty'] = 'إسم الإتصال فارغ.';
 $wb['default_webserver_txt'] = 'Default Webserver';
 $wb['limit_web_domain_txt'] = 'Max. number of web domains';
 $wb['limit_web_aliasdomain_txt'] = 'Max. number of web aliasdomains';
@@ -584,29 +584,29 @@ $wb['limit_spamfilter_wblist_txt'] = 'Max. number of spamfilter white / blacklis
 $wb['limit_spamfilter_user_txt'] = 'Max. number of spamfilter users';
 $wb['limit_spamfilter_policy_txt'] = 'Max. number of spamfilter policys';
 $wb['default_mailserver_txt'] = 'Default Mailserver';
-$wb['company_name_txt'] = 'Company name';
-$wb['contact_name_txt'] = 'Contact name';
+$wb['company_name_txt'] = 'اسم الشركة';
+$wb['contact_name_txt'] = 'إسم الإتصال';
 $wb['username_txt'] = 'اسم المستخدم';
 $wb['password_txt'] = 'كلمة المرور';
-$wb['password_strength_txt'] = 'Password strength';
-$wb['language_txt'] = 'Language';
+$wb['password_strength_txt'] = 'قوة كلمة المرور';
+$wb['language_txt'] = 'اللغة';
 $wb['usertheme_txt'] = 'Theme';
-$wb['street_txt'] = 'Street';
-$wb['zip_txt'] = 'ZIP';
-$wb['city_txt'] = 'City';
-$wb['state_txt'] = 'State';
+$wb['street_txt'] = 'الشارع';
+$wb['zip_txt'] = 'الرقم البريدي';
+$wb['city_txt'] = 'المدينة';
+$wb['state_txt'] = 'الولاية أو المقاطعة';
 $wb['country_txt'] = 'Country';
-$wb['telephone_txt'] = 'Telephone';
-$wb['mobile_txt'] = 'Mobile';
-$wb['fax_txt'] = 'Fax';
+$wb['telephone_txt'] = 'هاتف';
+$wb['mobile_txt'] = 'المحمول';
+$wb['fax_txt'] = 'الفاكس';
 $wb['email_txt'] = 'Email';
 $wb['internet_txt'] = 'Internet';
 $wb['icq_txt'] = 'ICQ';
-$wb['notes_txt'] = 'Notes';
-$wb['company_txt'] = 'Company';
-$wb['title_txt'] = 'Title';
-$wb['firstname_txt'] = 'Firstname';
-$wb['surname_txt'] = 'Surname';
+$wb['notes_txt'] = 'ملاحظات';
+$wb['company_txt'] = 'شركة';
+$wb['title_txt'] = 'العنوان';
+$wb['firstname_txt'] = 'الاسم الأول';
+$wb['surname_txt'] = 'إسم العائلي';
 $wb['limit_domain_txt'] = 'limit_domain';
 $wb['limit_subdomain_txt'] = 'limit_subdomain';
 $wb['limit_webquota_txt'] = 'limit_webquota';
@@ -617,7 +617,7 @@ $wb['limit_cron_frequency_txt'] = 'Min. delay between executions';
 $wb['ip_address_txt'] = 'ip_address';
 $wb['limit_client_error_notint'] = 'The sub client limit must be a number.';
 $wb['firstname_error_empty'] = 'Firstname is empty.';
-$wb['contact_error_empty'] = 'Contact name is empty.';
+$wb['contact_error_empty'] = 'إسم الإتصال فارغ.';
 $wb['default_webserver_txt'] = 'Default Webserver';
 $wb['limit_web_domain_txt'] = 'Max. number of web domains';
 $wb['limit_web_aliasdomain_txt'] = 'Max. number of web aliasdomains';
@@ -809,7 +809,7 @@ $wb['PDNS Tupa'] = 'PowerDNS Tupa';
 <?php
 $wb["passwort_txt"] = 'كلمة السر';
 $wb["password_strength_txt"] = 'قوة كلمة المرور';
-$wb["language_txt"] = 'لغة';
+$wb["language_txt"] = 'اللغة';
 $wb["password_mismatch"] = 'The password in the second password field does not match the first password.';
 $wb["Form to edit the user password and language."] = 'Form to edit the user password and language.';
 $wb["Settings"] = 'إعدادات';
@@ -1020,7 +1020,7 @@ $wb["save_txt"] = 'Save';
 $wb["cancel_txt"] = 'Cancel';
 $wb["header_txt"] = 'Module properties';
 $wb["description_txt"] = '
-<b>Description</b>
+<b>وصف</b>
 <br><br>
 <b>Modulename:</b> Name of the module directory. Only numbers, chars and underscore allowed.<br>
 <b>Moduletitle:</b> Will be shown in the (upper) main navigation.<br>
@@ -1052,7 +1052,7 @@ $wb["delete_txt"] = 'Delete';
 $wb["new_txt"] = 'New';
 $wb["up_txt"] = 'Up';
 $wb["down_txt"] = 'Down';
-$wb["module_txt"] = 'Module';
+$wb["module_txt"] = 'وحدة';
 $wb["module_del_txt"] = "Do you really want to delete the module and all its subdirectories?";
 $wb["menu_del_txt"] = "Do you really want to delete the menu with all sub entries?";
 $wb["item_del_txt"] = "Delete the menu entry?";
@@ -1068,7 +1068,7 @@ $wb["tab_width_txt"] = 'Tab width';
 $wb["save_txt"] = 'Save';
 $wb["cancel_txt"] = 'Cancel';
 $wb["header_txt"] = 'Form properties';
-$wb["description_txt"] = 'Description';
+$wb["description_txt"] = 'وصف';
 $wb["action_txt"] = 'Action (script)';
 $wb["db_table_txt"] = 'DB Table';
 $wb["db_table_idx_txt"] = 'DB Table Index';
@@ -1100,9 +1100,9 @@ $wb["edit_txt"] = 'Edit';
 $wb["new_txt"] = 'New';
 $wb["up_txt"] = '^';
 $wb["down_txt"] = 'v';
-$wb["module_txt"] = 'Module';
+$wb["module_txt"] = 'وحدة';
 $wb["form_txt"] = 'Form';
-$wb["description_txt"] = 'Description';
+$wb["description_txt"] = 'وصف';
 $wb["module_del_txt"] = "Delete the module and all subdirectories?";
 $wb["menu_del_txt"] = "Delete menu with all menuitems?";
 $wb["item_del_txt"] = "Delete menuitem?";
@@ -1110,16 +1110,16 @@ $wb["item_del_txt"] = "Delete menuitem?";
 --|designer|ar|ar_module_list.lng
 <?php
 $wb["list_head_txt"] = 'Backend Module';
-$wb["module_txt"] = 'Module';
+$wb["module_txt"] = 'وحدة';
 $wb["title_txt"] = 'Title';
 ?>
 --|designer|ar|ar_form_list.lng
 <?php
 $wb["list_head_txt"] = 'Backend Form';
 $wb["form_txt"] = 'Form';
-$wb["module_txt"] = 'Module';
+$wb["module_txt"] = 'وحدة';
 $wb["title_txt"] = 'Title';
-$wb["description_txt"] = 'Description';
+$wb["description_txt"] = 'وصف';
 ?>
 --|designer|ar|ar_module_nav_item_edit.lng
 <?php
@@ -1614,7 +1614,7 @@ $wb["fastcgi_phpini_path_txt"] = 'FastCGI php.ini Path';
 $wb["fastcgi_children_txt"] = 'FastCGI Children';
 $wb["fastcgi_max_requests_txt"] = 'FastCGI max. Requests';
 $wb["fastcgi_bin_txt"] = 'FastCGI Bin';
-$wb["module_txt"] = 'Module';
+$wb["module_txt"] = 'وحدة';
 $wb["maildir_path_txt"] = 'Maildir Path';
 $wb["homedir_path_txt"] = 'Homedir Path';
 $wb["mailuser_uid_txt"] = 'Mailuser UID';
@@ -1770,26 +1770,26 @@ $wb["username_err"] = 'The username is too long or contains invalid characters.'
 $wb["username_empty"] = 'The username is empty.';
 $wb["username_unique"] = 'There is already a user with this username.';
 $wb["passwort_txt"] = 'كلمة المرور';
-$wb["password_strength_txt"] = 'Password strength';
-$wb["modules_txt"] = 'Module';
+$wb["password_strength_txt"] = 'قوة كلمة المرور';
+$wb["modules_txt"] = 'وحدة';
 $wb["startmodule_txt"] = 'Startmodule';
-$wb["app_theme_txt"] = 'Design';
-$wb["typ_txt"] = 'Type';
-$wb["active_txt"] = 'Active';
-$wb["language_txt"] = 'Language';
-$wb["name_txt"] = 'Name';
-$wb["vorname_txt"] = 'Forename';
-$wb["unternehmen_txt"] = 'Company';
-$wb["strasse_txt"] = 'Street';
-$wb["ort_txt"] = 'City';
-$wb["plz_txt"] = 'ZIP';
-$wb["land_txt"] = 'Country';
-$wb["email_txt"] = 'Email';
+$wb["app_theme_txt"] = 'تصميم';
+$wb["typ_txt"] = 'نوع';
+$wb["active_txt"] = 'تفعيل';
+$wb["language_txt"] = 'اللغة';
+$wb["name_txt"] = 'إسم';
+$wb["vorname_txt"] = 'الاسم الاول';
+$wb["unternehmen_txt"] = 'الشركة';
+$wb["strasse_txt"] = 'الشارع';
+$wb["ort_txt"] = 'المدينة';
+$wb["plz_txt"] = 'الرقم البريدي';
+$wb["land_txt"] = 'البلد';
+$wb["email_txt"] = 'البريد';
 $wb["url_txt"] = 'Url';
-$wb["telefon_txt"] = 'Telephone';
-$wb["fax_txt"] = 'Fax';
-$wb["groups_txt"] = 'Groups';
-$wb["default_group_txt"] = 'Default Group';
+$wb["telefon_txt"] = 'هاتف';
+$wb["fax_txt"] = 'الفاكس';
+$wb["groups_txt"] = 'المجموعات';
+$wb["default_group_txt"] = 'المجموعة الافتراضية';
 $wb["startmodule_err"] = 'Start module is not within modules.';
 ?>
 
@@ -1824,7 +1824,7 @@ $wb['ispconfig_update_text'] = "Login as root user on the shell of your server a
 --|admin|ar|ar_groups_list.lng
 <?php
 $wb["list_head_txt"] = 'Systemuser groups';
-$wb["description_txt"] = 'Description';
+$wb["description_txt"] = 'وصف';
 $wb["name_txt"] = 'Group';
 $wb["add_new_record_txt"] = 'Add new Group';
 $wb["warning_txt"] = '<b>WARNING:</b> Do not edit or modify any user settings here. Use the Client- and Reseller settings in the Client module instead. Modifying or changing Users or groups here may cause data loss!';
@@ -1935,7 +1935,7 @@ $wb["warning_txt"] = '<b>WARNING:</b> Do not edit or modify any user settings he
 $wb['list_head_txt'] = 'Apps & Addon packages';
 $wb['installed_txt'] = 'Status';
 $wb['package_title_txt'] = 'Package';
-$wb['package_description_txt'] = 'Description';
+$wb['package_description_txt'] = 'وصف';
 $wb['action_txt'] = 'Action';
 $wb['toolsarea_head_txt'] = 'Packages';
 $wb['repoupdate_txt'] = 'Update package list';
@@ -1950,7 +1950,7 @@ $wb['function_txt'] = 'Functions:';
 $wb['username_error_unique'] = 'Username must be unique';
 $wb['username_error_empty'] = 'Username cannot be empty';
 $wb['password_error_empty'] = 'Password cannot be empty';
-$wb['password_strength_txt'] = 'Password Strength:';
+$wb['password_strength_txt'] = 'قوة كلمة المرور:';
 $wb['Mail domain functions'] = 'Mail domain functions';
 $wb['Mail mailing list functions'] = 'Mail mailinglist functions';
 $wb['Mail user functions'] = 'Mail user functions';
@@ -2085,19 +2085,19 @@ $wb['admin_name_txt'] = 'Administrator\'s name';
 
 --|admin|ar|ar_language_add.lng
 <?php
-$wb["list_head_txt"] = 'Add new language';
-$wb["language_select_txt"] = 'Select language basis';
-$wb["language_new_txt"] = 'New language';
-$wb["language_new_hint_txt"] = '2 characters ISO 639-1 language-code (See http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)';
-$wb['btn_save_txt'] = 'Create new language file set';
-$wb['btn_cancel_txt'] = 'Back';
+$wb["list_head_txt"] = 'إضافة لغة جديدة';
+$wb["language_select_txt"] = 'تحديد اللغة الأساسية';
+$wb["language_new_txt"] = 'لغة جديدة';
+$wb["language_new_hint_txt"] = '2 أحرف ISO 639-1 من  (See http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)';
+$wb['btn_save_txt'] = 'إنشاء مجموعة جديدة من ملفات اللغة';
+$wb['btn_cancel_txt'] = 'إلغاء';
 ?>
 --|admin|ar|ar_language_export.lng
 <?php
-$wb["list_head_txt"] = 'Export language files';
-$wb["language_select_txt"] = 'Select language';
-$wb['btn_save_txt'] = 'Export the selected language file set';
-$wb['btn_cancel_txt'] = 'Back';
+$wb["list_head_txt"] = 'تصدير ملفات اللغة';
+$wb["language_select_txt"] = 'اختر اللغة';
+$wb['btn_save_txt'] = 'تصدير ملف اللغة المختارة';
+$wb['btn_cancel_txt'] = 'إلغاء';
 ?>
 --|admin|ar|ar_firewall.lng
 <?php
@@ -2114,21 +2114,21 @@ $wb["udp_ports_error_regex"] = 'Character not allowed in udp port definition. Al
 ?>
 --|admin|ar|ar_software_update_list.lng
 <?php
-$wb['list_head_txt'] = 'Software updates';
-$wb['server_select_txt'] = 'Select server';
-$wb['installed_txt'] = 'Action';
-$wb['update_title_txt'] = 'Update';
-$wb['version_txt'] = 'Version';
-$wb['action_txt'] = 'Action';
+$wb['list_head_txt'] = 'تحديثات التطبيقات';
+$wb['server_select_txt'] = 'حدد الخادم';
+$wb['installed_txt'] = 'تثبيت';
+$wb['update_title_txt'] = 'تحديث';
+$wb['version_txt'] = 'نسخة';
+$wb['action_txt'] = 'تفعيل';
 ?>
 
 --|admin|ar|ar_language_list.lng
 <?php
-$wb["list_head_txt"] = 'Language file editor';
-$wb["language_select_txt"] = 'Select language';
-$wb["module_txt"] = 'Module';
-$wb["lang_file_txt"] = 'Language file';
-$wb["lang_file_date_txt"] = 'Last modify';
+$wb["list_head_txt"] = 'تحرير ملف اللغة';
+$wb["language_select_txt"] = 'اختر اللغة';
+$wb["module_txt"] = 'وحدة';
+$wb["lang_file_txt"] = 'ملف اللغة';
+$wb["lang_file_date_txt"] = 'أخر تحديث';
 ?>
 
 --|admin|ar|ar_remote_user_list.lng
@@ -2153,7 +2153,7 @@ $wb['btn_cancel_txt'] = 'Back';
 <?php
 $wb['list_head_txt'] = 'Language file editor';
 $wb['language_select_txt'] = 'Select language';
-$wb['module_txt'] = 'Module';
+$wb['module_txt'] = 'وحدة';
 $wb['lang_file_txt'] = 'Language file';
 $wb['btn_save_txt'] = 'Save';
 $wb['btn_cancel_txt'] = 'Back';
@@ -2161,7 +2161,7 @@ $wb['btn_cancel_txt'] = 'Back';
 
 --|admin|ar|ar_groups.lng
 <?php
-$wb["description_txt"] = 'Description';
+$wb["description_txt"] = 'وصف';
 $wb["name_txt"] = 'Group';
 $wb["name_err"] = 'Group must be min 1, max 30 Chars.';
 ?>
@@ -2210,7 +2210,7 @@ $wb["duplicate_email_alias_txt"] = 'This email alias does already exist.';
 $wb["custom_mailfilter_txt"] = 'Custom mail filter recipe';
 $wb["email_txt"] = 'Email';
 $wb["cryptpwd_txt"] = 'كلمة المرور';
-$wb["password_strength_txt"] = 'Password strength';
+$wb["password_strength_txt"] = 'قوة كلمة المرور';
 $wb["active_txt"] = 'Active';
 $wb["email_error_isemail"] = 'Email address is invalid.';
 $wb["email_error_unique"] = 'Duplicate Email address.';
@@ -2587,7 +2587,7 @@ $wb["listname_error_empty"] = 'Listname is empty.';
 $wb["domain_error_regex"] = 'Invalid domain name.';
 $wb["email_in_use_txt"] = 'Email is in use';
 $wb["no_domain_perm"] = 'You have no permission for this domain.';
-$wb["password_strength_txt"] = 'Password strength';
+$wb["password_strength_txt"] = 'قوة كلمة المرور';
 $wb["server_id_txt"] = 'الخادم';
 $wb["domain_txt"] = 'Domain';
 $wb["listname_txt"] = 'Listname';
@@ -2901,7 +2901,7 @@ $wb['server_id_txt'] = "الخادم";
 $wb['parent_domain_id_txt'] = "Website";
 $wb['username_txt'] = "اسم المستخدم";
 $wb['password_txt'] = "كلمة المرور";
-$wb['password_strength_txt'] = "Password strength";
+$wb['password_strength_txt'] = "قوة كلمة المرور";
 $wb['active_txt'] = "Active";
 $wb['limit_webdav_user_txt'] = "The max. number of webdav users for your account is reached.";
 $wb['username_error_empty'] = "Username is empty.";
@@ -2937,7 +2937,7 @@ $wb['server_id_txt'] = "الخادم";
 $wb['parent_domain_id_txt'] = "Website";
 $wb['username_txt'] = "اسم المستخدم";
 $wb['password_txt'] = "كلمة المرور";
-$wb['password_strength_txt'] = "Password strength";
+$wb['password_strength_txt'] = "قوة كلمة المرور";
 $wb['quota_size_txt'] = "Harddisk-Quota";
 $wb['active_txt'] = "Active";
 $wb['limit_ftp_user_txt'] = "The max. number of FTP users for your account is reached.";
@@ -2965,7 +2965,7 @@ $wb["add_new_record_txt"] = 'Add new Webdav-User';
 ?>
 --|sites|ar|ar_web_subdomain.lng
 <?php
-$wb["ssl_state_txt"] = 'State';
+$wb["ssl_state_txt"] = 'الولاية أو المقاطعة';
 $wb["ssl_locality_txt"] = 'Locality';
 $wb["ssl_organisation_txt"] = 'Organisation';
 $wb["ssl_organisation_unit_txt"] = 'Organisation Unit';
@@ -3020,7 +3020,7 @@ $wb["add_new_record_txt"] = 'Add new Shell-User';
 <?php
 $wb["backup_interval_txt"] = 'Backup interval';
 $wb["backup_copies_txt"] = 'Number of backup copies';
-$wb["ssl_state_txt"] = 'State';
+$wb["ssl_state_txt"] = 'الولاية أو المقاطعة';
 $wb["ssl_locality_txt"] = 'Locality';
 $wb["ssl_organisation_txt"] = 'Organisation';
 $wb["ssl_organisation_unit_txt"] = 'Organisation Unit';
@@ -3127,7 +3127,7 @@ $wb["type_txt"] = 'Type';
 $wb["database_name_txt"] = 'Database name';
 $wb["database_user_txt"] = 'Database user';
 $wb["database_password_txt"] = 'Database password';
-$wb["password_strength_txt"] = 'Password strength';
+$wb["password_strength_txt"] = 'قوة كلمة المرور';
 $wb["database_charset_txt"] = 'Database charset';
 $wb["remote_access_txt"] = 'Remote Access';
 $wb["remote_ips_txt"] = 'Remote Access IPs (separate by , and leave blank for <i>any</i>)';
@@ -3168,7 +3168,7 @@ $wb['server_id_txt'] = "الخادم";
 $wb['parent_domain_id_txt'] = "Site";
 $wb['username_txt'] = "اسم المستخدم";
 $wb['password_txt'] = "كلمة المرور";
-$wb['password_strength_txt'] = "Password strength";
+$wb['password_strength_txt'] = "قوة كلمة المرور";
 $wb['chroot_txt'] = "Chroot Shell";
 $wb['quota_size_txt'] = "Quota";
 $wb['active_txt'] = "Active";
