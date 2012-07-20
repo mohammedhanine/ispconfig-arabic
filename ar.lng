@@ -350,14 +350,14 @@ $wb['reserved_txt'] = 'محجوز';
 
 --|vm|ar|ar_openvz_vm.lng
 <?php
-$wb['diskspace_txt'] = 'Diskspace';
-$wb['ram_txt'] = 'RAM (guaranteed)';
-$wb['ram_burst_txt'] = 'RAM (burst)';
+$wb['diskspace_txt'] = 'مساحة القرص';
+$wb['ram_txt'] = 'RAM (مضمون)';
+$wb['ram_burst_txt'] = 'RAM (القصوى)';
 $wb['cpu_units_txt'] = 'CPU units';
-$wb['cpu_num_txt'] = 'CPU number';
+$wb['cpu_num_txt'] = 'CPU عدد';
 $wb['cpu_limit_txt'] = 'CPU limit';
-$wb['io_priority_txt'] = 'I/O priority';
-$wb['nameserver_txt'] = 'Nameserver(s)';
+$wb['io_priority_txt'] = 'I/O الأولوية';
+$wb['nameserver_txt'] = 'خادم الأسماء(dns)';
 $wb['nameserver_desc_txt'] = '(separated by whitespace)';
 $wb['capability_txt'] = 'Capability';
 $wb['server_id_txt'] = 'الخادم المضيف';
@@ -419,8 +419,8 @@ $wb['limit_spamfilter_policy_txt'] = 'Max. number of spamfilter policys';
 $wb['default_mailserver_txt'] = 'Default Mailserver';
 $wb['company_name_txt'] = 'Company name';
 $wb['contact_name_txt'] = 'Contact name';
-$wb['username_txt'] = 'Username';
-$wb['password_txt'] = 'Password';
+$wb['username_txt'] = 'اسم المستخدم';
+$wb['password_txt'] = 'كلمة المرور';
 $wb['password_strength_txt'] = 'Password strength';
 $wb['language_txt'] = 'اللغة';
 $wb['usertheme_txt'] = 'Theme';
@@ -586,8 +586,8 @@ $wb['limit_spamfilter_policy_txt'] = 'Max. number of spamfilter policys';
 $wb['default_mailserver_txt'] = 'Default Mailserver';
 $wb['company_name_txt'] = 'Company name';
 $wb['contact_name_txt'] = 'Contact name';
-$wb['username_txt'] = 'Username';
-$wb['password_txt'] = 'Password';
+$wb['username_txt'] = 'اسم المستخدم';
+$wb['password_txt'] = 'كلمة المرور';
 $wb['password_strength_txt'] = 'Password strength';
 $wb['language_txt'] = 'Language';
 $wb['usertheme_txt'] = 'Theme';
@@ -1191,8 +1191,8 @@ $wb['pw_reset_mail_title'] = 'ISPConfig 3 Control panel password has been reset.
 $wb['user_regex_error'] = 'Username contains unallowed characters or is longer then 64 characters.';
 $wb['pw_error_length'] = 'The password length is > 64 characters.';
 
-$wb['username_txt']	= "Username";
-$wb['password_txt']	= "Password";
+$wb['username_txt']	= "اسم المستخدم";
+$wb['password_txt']	= "كلمة المرور";
 $wb['login_button_txt']	= "Login";
 
 ?>
@@ -1765,11 +1765,11 @@ $wb["error_port_syntax"] = 'Invalid chars in port field, please enter only comma
 ?>
 --|admin|ar|ar_users.lng
 <?php
-$wb["username_txt"] = 'Username';
+$wb["username_txt"] = 'اسم المستخدم';
 $wb["username_err"] = 'The username is too long or contains invalid characters.';
 $wb["username_empty"] = 'The username is empty.';
 $wb["username_unique"] = 'There is already a user with this username.';
-$wb["passwort_txt"] = 'Password';
+$wb["passwort_txt"] = 'كلمة المرور';
 $wb["password_strength_txt"] = 'Password strength';
 $wb["modules_txt"] = 'Module';
 $wb["startmodule_txt"] = 'Startmodule';
@@ -1944,8 +1944,8 @@ $wb['package_id_txt'] = 'local App-ID';
 
 --|admin|ar|ar_remote_user.lng
 <?php
-$wb['username_txt'] = 'Username:';
-$wb['password_txt'] = 'Password:';
+$wb['username_txt'] = 'اسم المستخدم:';
+$wb['password_txt'] = 'كلمة المرور:';
 $wb['function_txt'] = 'Functions:';
 $wb['username_error_unique'] = 'Username must be unique';
 $wb['username_error_empty'] = 'Username cannot be empty';
@@ -2137,7 +2137,7 @@ $wb['list_head_txt'] = "Remote Users";
 $wb['list_desc_txt'] = "";
 $wb['add_new_record_txt'] = "Add new user";
 $wb['parent_remote_userid_txt'] = 'ID';
-$wb['username_txt'] = "Username";
+$wb['username_txt'] = "اسم المستخدم";
 ?>
 
 
@@ -2209,7 +2209,7 @@ $wb["duplicate_email_alias_txt"] = 'This email alias does already exist.';
 <?php
 $wb["custom_mailfilter_txt"] = 'Custom mail filter recipe';
 $wb["email_txt"] = 'Email';
-$wb["cryptpwd_txt"] = 'Password';
+$wb["cryptpwd_txt"] = 'كلمة المرور';
 $wb["password_strength_txt"] = 'Password strength';
 $wb["active_txt"] = 'Active';
 $wb["email_error_isemail"] = 'Email address is invalid.';
@@ -2225,7 +2225,7 @@ $wb["error_no_pwd"] = 'Password is empty.';
 $wb["quota_error_isint"] = 'Mailbox size must be a number.';
 $wb["quota_txt"] = 'Quota';
 $wb["server_id_txt"] = 'Aerver_id';
-$wb["password_txt"] = 'Password';
+$wb["password_txt"] = 'كلمة المرور';
 $wb["maildir_txt"] = 'Maildir';
 $wb["postfix_txt"] = 'Enable Receiving';
 $wb["access_txt"] = 'Enable Access';
@@ -2593,15 +2593,15 @@ $wb["domain_txt"] = 'Domain';
 $wb["listname_txt"] = 'Listname';
 $wb["client_txt"] = 'Client';
 $wb["email_txt"] = 'Email';
-$wb["password_txt"] = 'Password';
+$wb["password_txt"] = 'كلمة المرور';
 ?>
 --|mail|ar|ar_mail_get.lng
 <?php
 $wb["server_id_txt"] = 'الخادم';
 $wb["type_txt"] = 'Type';
 $wb["source_server_txt"] = 'Pop3/Imap Server';
-$wb["source_username_txt"] = 'Username';
-$wb["source_password_txt"] = 'Password';
+$wb["source_username_txt"] = 'اسم المستخدم';
+$wb["source_password_txt"] = 'كلمة المرور';
 $wb["source_delete_txt"] = 'Delete emails after retrieval';
 $wb["source_read_all_txt"] = 'Retrieve all emails (incl. read mails)';
 $wb["destination_txt"] = 'Destination';
@@ -2748,7 +2748,7 @@ $wb["list_head_txt"] = 'Fetch emails from external POP3 / IMAP servers';
 $wb["active_txt"] = 'Active';
 $wb["server_id_txt"] = 'الخادم';
 $wb["source_server_txt"] = 'External Server';
-$wb["source_username_txt"] = 'Username';
+$wb["source_username_txt"] = 'اسم المستخدم';
 $wb["destination_txt"] = 'Destination';
 $wb["add_new_record_txt"] = 'Add new Account';
 ?>
@@ -2775,8 +2775,8 @@ $wb["soft_txt"] = 'Soft limit';
 --|sites|ar|ar_web_folder_user.lng
 <?php
 $wb["web_folder_id_txt"] = 'Folder';
-$wb["username_txt"] = 'Username';
-$wb["password_txt"] = 'Password';
+$wb["username_txt"] = 'اسم المستخدم';
+$wb["password_txt"] = 'كلمة المرور';
 $wb["active_txt"] = 'Active';
 $wb["folder_error_empty"] = 'No web folder selecetd.';
 ?>
@@ -2825,7 +2825,7 @@ $wb["add_new_record_txt"] = 'Add new Database';
 $wb["list_head_txt"] = 'Folder User';
 $wb["active_txt"] = 'Active';
 $wb["web_folder_id_txt"] = 'Folder';
-$wb["username_txt"] = 'Username';
+$wb["username_txt"] = 'اسم المستخدم';
 ?>
 --|sites|ar|ar.lng
 <?php
@@ -2869,7 +2869,7 @@ $wb["list_head_txt"] = 'FTP-User';
 $wb["active_txt"] = 'Active';
 $wb["server_id_txt"] = 'الخادم';
 $wb["parent_domain_id_txt"] = 'Website';
-$wb["username_txt"] = 'Username';
+$wb["username_txt"] = 'اسم المستخدم';
 $wb["add_new_record_txt"] = 'Add new FTP-User';
 ?>
 --|sites|ar|ar_cron.lng
@@ -2899,8 +2899,8 @@ $wb['unknown_fieldtype_error'] = 'An unknown field type has been used.';
 $wb['dir_txt'] = "Directory";
 $wb['server_id_txt'] = "الخادم";
 $wb['parent_domain_id_txt'] = "Website";
-$wb['username_txt'] = "Username";
-$wb['password_txt'] = "Password";
+$wb['username_txt'] = "اسم المستخدم";
+$wb['password_txt'] = "كلمة المرور";
 $wb['password_strength_txt'] = "Password strength";
 $wb['active_txt'] = "Active";
 $wb['limit_webdav_user_txt'] = "The max. number of webdav users for your account is reached.";
@@ -2935,8 +2935,8 @@ $wb['ul_bandwidth_txt'] = "Uploadbandwidth";
 $wb['dl_bandwidth_txt'] = "Downloadbandwidth";
 $wb['server_id_txt'] = "الخادم";
 $wb['parent_domain_id_txt'] = "Website";
-$wb['username_txt'] = "Username";
-$wb['password_txt'] = "Password";
+$wb['username_txt'] = "اسم المستخدم";
+$wb['password_txt'] = "كلمة المرور";
 $wb['password_strength_txt'] = "Password strength";
 $wb['quota_size_txt'] = "Harddisk-Quota";
 $wb['active_txt'] = "Active";
@@ -2960,7 +2960,7 @@ $wb["list_head_txt"] = 'Webdav-User';
 $wb["active_txt"] = 'Active';
 $wb["server_id_txt"] = 'الخادم';
 $wb["parent_domain_id_txt"] = 'Website';
-$wb["username_txt"] = 'Username';
+$wb["username_txt"] = 'اسم المستخدم';
 $wb["add_new_record_txt"] = 'Add new Webdav-User';
 ?>
 --|sites|ar|ar_web_subdomain.lng
@@ -3013,7 +3013,7 @@ $wb["list_head_txt"] = 'Shell User';
 $wb["active_txt"] = 'Active';
 $wb["server_id_txt"] = 'الخادم';
 $wb["parent_domain_id_txt"] = 'Site';
-$wb["username_txt"] = 'Username';
+$wb["username_txt"] = 'اسم المستخدم';
 $wb["add_new_record_txt"] = 'Add new Shell-User';
 ?>
 --|sites|ar|ar_web_domain.lng
@@ -3166,8 +3166,8 @@ $wb['shell_txt'] = "Shell";
 $wb['dir_txt'] = "Dir";
 $wb['server_id_txt'] = "الخادم";
 $wb['parent_domain_id_txt'] = "Site";
-$wb['username_txt'] = "Username";
-$wb['password_txt'] = "Password";
+$wb['username_txt'] = "اسم المستخدم";
+$wb['password_txt'] = "كلمة المرور";
 $wb['password_strength_txt'] = "Password strength";
 $wb['chroot_txt'] = "Chroot Shell";
 $wb['quota_size_txt'] = "Quota";
