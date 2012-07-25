@@ -2774,7 +2774,7 @@ $wb["soft_txt"] = 'Soft limit';
 ?>
 --|sites|ar|ar_web_folder_user.lng
 <?php
-$wb["web_folder_id_txt"] = 'Folder';
+$wb["web_folder_id_txt"] = 'مجلد';
 $wb["username_txt"] = 'اسم المستخدم';
 $wb["password_txt"] = 'كلمة المرور';
 $wb["active_txt"] = 'مفعل';
