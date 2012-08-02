@@ -133,11 +133,16 @@
 	a:focus,
 	a:hover,
 	a:active {color:#182E7A; text-decoration:underline;}
-	
+	/*
 	#topsubnav a { color: #f0f8ff; font-weight: normal; background:#ff1020; text-decoration:none; }
 	#topsubnav a:focus, 
 	#topsubnav a:hover,
 	#topsubnav a:active { text-decoration:underline; background-color: transparent;}
+	*/
+	#topsubnav a:focus, 
+	#topsubnav a:hover,
+	#topsubnav a:active { text-decoration:none;background: #222}
+	
 	
 	#footer a { color: #999; background:transparent; font-weight: bold;}
 	#footer a:focus, 
