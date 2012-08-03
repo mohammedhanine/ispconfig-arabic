@@ -564,7 +564,7 @@ $wb['error_has_clients'] = 'This reseller has clients. Delete the clients of the
 $wb['add_additional_template_txt'] = 'Add additional template';
 $wb['delete_additional_template_txt'] = 'Delete additional template';
 $wb['Messaging'] = 'الرسائل';
-$wb['Send Email'] = 'إرسال البريد';
+$wb['Send Email'] = 'إرسال رسالة';
 ?>
 
 
@@ -590,7 +590,7 @@ $wb['username_txt'] = 'اسم المستخدم';
 $wb['password_txt'] = 'كلمة المرور';
 $wb['password_strength_txt'] = 'قوة كلمة المرور';
 $wb['language_txt'] = 'اللغة';
-$wb['usertheme_txt'] = 'Theme';
+$wb['usertheme_txt'] = 'ثيم';
 $wb['street_txt'] = 'الشارع';
 $wb['zip_txt'] = 'الرقم البريدي';
 $wb['city_txt'] = 'المدينة';
@@ -599,7 +599,7 @@ $wb['country_txt'] = 'Country';
 $wb['telephone_txt'] = 'هاتف';
 $wb['mobile_txt'] = 'المحمول';
 $wb['fax_txt'] = 'الفاكس';
-$wb['email_txt'] = 'Email';
+$wb['email_txt'] = 'البريد';
 $wb['internet_txt'] = 'Internet';
 $wb['icq_txt'] = 'ICQ';
 $wb['notes_txt'] = 'ملاحظات';
@@ -765,7 +765,7 @@ $wb["btn_cancel_txt"] = 'Cancel without deleting the client';
 
 --|client|ar|ar_client_message.lng
 <?php
-$wb["btn_send_txt"] = 'Send email';
+$wb["btn_send_txt"] = 'إرسال رسالة';
 $wb["btn_cancel_txt"] = 'Cancel';
 $wb["sender_txt"] = 'Sender email address';
 $wb["subject_txt"] = 'Subject';
@@ -1287,7 +1287,7 @@ $wb['eg_domain_tld'] = 'e.g. domain.tld.';
 <?php
 
 $wb['DNS'] = 'DNS';
-$wb['Zones'] = 'Zones';
+$wb['Zones'] = 'المنطقة';
 $wb['DNS A'] = 'DNS A';
 $wb['DNS ALIAS'] = 'DNS ALIAS';
 $wb['DNS CNAME'] = 'DNS CNAME';
@@ -1301,11 +1301,11 @@ $wb['Records'] = 'Records';
 $wb['DNS SRV'] = 'DNS SRV';
 $wb['DNS TXT Record'] = 'DNS TXT Record';
 $wb['DNS TXT'] = 'DNS TXT';
-$wb['DNS Wizard'] = 'DNS Wizard';
-$wb['Add DNS Zone'] = 'Add DNS Zone';
-$wb['Templates'] = 'Templates';
-$wb['Secondary Zones'] = 'Secondary Zones';
-$wb['Import Zone File'] = 'Import Zone File';
+$wb['DNS Wizard'] = 'DNS معالج';
+$wb['Add DNS Zone'] = 'إضافة منطقة DNS';
+$wb['Templates'] = 'القالب';
+$wb['Secondary Zones'] = 'المنطقة الثانوية';
+$wb['Import Zone File'] = 'استيراد المنطقة';
 ?>
 --|dns|ar|ar_dns_ns.lng
 <?php
@@ -1342,7 +1342,7 @@ $wb["data_error_regex"] = 'Responsible person field format invalid';
 --|dns|ar|ar_dns_wizard.lng
 <?php
 
-$wb['template_id_txt'] = 'Template';
+$wb['template_id_txt'] = 'القالب';
 $wb['server_id_txt'] = 'الخادم';
 $wb['client_txt'] = 'Client';
 $wb["btn_save_txt"] = 'Create DNS Record';
@@ -1387,15 +1387,15 @@ $wb['delete_confirmation'] = 'Do you really want to delete this record?';
 ?>
 --|dns|ar|ar_dns_template_list.lng
 <?php
-$wb["list_head_txt"] = 'DNS Wizard Template';
-$wb["visible_txt"] = 'Visible';
-$wb["name_txt"] = 'Name';
-$wb["add_new_record_txt"] = 'Add new record';
+$wb["list_head_txt"] = 'قالب معالج DNS';
+$wb["visible_txt"] = 'مرئي';
+$wb["name_txt"] = 'الإسم';
+$wb["add_new_record_txt"] = 'أضف جديد';
 ?>
 --|dns|ar|ar_dns_srv.lng
 <?php
 $wb["server_id_txt"] = 'الخادم';
-$wb["zone_txt"] = 'Zone';
+$wb["zone_txt"] = 'المنطقة';
 $wb["name_txt"] = 'Hostname';
 $wb["type_txt"] = 'type';
 $wb["data_txt"] = 'Server Record';
@@ -1468,8 +1468,8 @@ $wb["server_id_txt"] = 'الخادم';
 $wb["origin_txt"] = 'منطقة';
 $wb["ns_txt"] = 'NS';
 $wb["mbox_txt"] = 'البريد';
-$wb["add_new_record_wizard_txt"] = 'Add new DNS Zone with Wizard';
-$wb["add_new_record_txt"] = 'Add new DNS Zone manually';
+$wb["add_new_record_wizard_txt"] = 'إضافة منطقة dns جديدة للمعالج';
+$wb["add_new_record_txt"] = 'إضف منطقة dns جديدة يدويا';
 ?>
 
 --|dns|ar|ar_dns_aaaa.lng
@@ -1566,25 +1566,25 @@ $wb["data_error_duplicate"] = 'Duplicate A-Record or CNAME-Record';
 <?php
 
 $wb['server_id_txt'] = 'الخادم';
-$wb['client_txt'] = 'Client';
-$wb["btn_save_txt"] = 'Import Zonefile';
-$wb["btn_cancel_txt"] = 'Cancel';
-$wb['domain_txt'] = 'Domain';
-$wb['zone_file_successfully_imported_txt'] = 'The zone file has successfully been imported!';
-$wb['error_no_valid_zone_file_txt'] = 'This appears to be no valid zone file!';
-$wb['zonefile_to_import_txt'] = 'Zone File';
-$wb['domain_field_desc_txt'] = 'Can be left empty if domain name is in the filename or the zone-file content.';
-$wb['title'] = 'Import Zone Files';
-$wb['no_file_uploaded_error'] = 'No zonefile uploaded';
+$wb['client_txt'] = 'العميل';
+$wb["btn_save_txt"] = 'استيراد ملف منطقة';
+$wb["btn_cancel_txt"] = 'إلغاء';
+$wb['domain_txt'] = 'النطاق';
+$wb['zone_file_successfully_imported_txt'] = 'تم بنجاح استيراد ملف المنطقة !';
+$wb['error_no_valid_zone_file_txt'] = 'يبدوا أنه ملف منطقة غير صالح!';
+$wb['zonefile_to_import_txt'] = 'ملف المنطقة';
+$wb['domain_field_desc_txt'] = 'تم ترك إسم النطاق أو ملف المنطقة فارغ.';
+$wb['title'] = 'استيراد ملف منطقة';
+$wb['no_file_uploaded_error'] = 'لا يوجد ملف منطقة لتحميل';
 ?>
 --|admin|ar|ar_language_import.lng
 <?php
 $wb["list_head_txt"] = 'استيراد ملف اللغة';
 $wb["language_import_txt"] = 'حدد ملف اللغة';
-$wb['btn_save_txt'] = 'Import the selected language file';
-$wb["language_overwrite_txt"] = 'إعادة كتابة الملف، إذا كان موجودا.';
+$wb['btn_save_txt'] = 'استيراد ملف اللغة';
+$wb["language_overwrite_txt"] = 'إعادة كتابة الملفات، إذا كانت موجودة.';
 $wb['btn_cancel_txt'] = 'إلغاء';
-$wb['ignore_version_txt'] = 'تخطي التحقق من الإصدار';
+$wb['ignore_version_txt'] = 'تخطي التحقق الإصدار';
 ?>
 --|admin|ar|ar_server_config.lng
 <?php
