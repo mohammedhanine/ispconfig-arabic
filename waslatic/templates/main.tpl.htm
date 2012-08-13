@@ -105,10 +105,10 @@
                     <a class="skip" href="#content" title="skip link">Skip to the content</a><span class="hideme">.</span>
                     <!-- end: skip link navigation -->
 			        <tmpl_if name="cpuser">
-                    <span class="buttons btn-inverse"><a href="#logout" onclick="loadContent('login/logout.php');"><tmpl_var name="logout_txt"> <tmpl_var format="strtoupper" name="cpuser"></a> <a href="#" onclick="capp('help')">Help</a></span>
+                    <span class="buttons btn-inverse"><a href="#logout" onclick="loadContent('login/logout.php');"><tmpl_var name="logout_txt"> <tmpl_var format="strtoupper" name="cpuser"></a> <a href="#" onclick="capp('help')">مساعدة</a></span>
 			        </tmpl_if>
                 </div>
-                <h1 id="ir-HeaderLogo" class="swap" style="background-image:url('{tmpl_var name='app_logo'}');background-position: right"><span>ISPConfig 3</span></h1>
+                <h1 id="ir-HeaderLogo" class="swap" style="background-image:url('{tmpl_var name='app_logo'}');background-position: right"><span><tmpl_var name="app_title"></span></h1>
                 <span>لوحة تحكم الإستضافة</span>
             </div>
             <!-- begin: main navigation #nav -->

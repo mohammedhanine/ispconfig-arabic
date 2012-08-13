@@ -1,0 +1,34 @@
+<h2>تحديد الهوية</h2>
+<p><tmpl_var name="list_desc_txt"></p>
+
+<div class="panel panel_login">
+  
+  <tmpl_if name="msg">
+	<div id="OKMsg"><p><tmpl_var name="msg"></p></div>
+  </tmpl_if>
+  <tmpl_if name="error">
+	<div id="errorMsg"><h3>ERROR</h3><ol><li><tmpl_var name="error"></li></ol><br /><a href="#" onclick="loadContent('login/password_reset.php');">Password lost?</a></div>
+  </tmpl_if>
+  
+  <div class="pnl_formsarea">
+    <fieldset class="inlineLabels"><legend>دخول</legend>
+      <div class="ctrlHolder">
+      	<label for="username">اسم المستخدم</label>
+        <input name="username" id="username" value="" size="30" maxlength="255" type="text" class="textInput"  onkeypress="if (event.keyCode && event.keyCode == 13) {submitLoginForm('pageForm'); return false;};" />
+			</div>
+      <div class="ctrlHolder">
+      	<label for="passwort">كلمة السر</label>
+        <input name="passwort" id="passwort" value="" size="30" maxlength="255" type="password" class="textInput"  onkeypress="if (event.keyCode && event.keyCode == 13) {submitLoginForm('pageForm'); return false;};" />
+			</div>			
+    </fieldset>
+
+    <input type="hidden" name="s_mod" value="login" />
+    <input type="hidden" name="s_pg" value="index" />
+    
+    <div class="buttonHolder buttons">
+			<button class="positive iconstxt icoKey" type="button" value="{tmpl_var name="add_new_record_txt"}" onClick="submitLoginForm('pageForm');"><span>دخول</span></button>
+			<button class="positive " type="button" value="{tmpl_var name="add_new_record_txt"}" onClick="submitForm('pageForm','login/password_reset.php');"><span>إعادة إرسال كلمة السر</span></button>
+    </div>
+  </div>
+  
+</div>

@@ -948,9 +948,35 @@
     select.withicons option[value="zw"] { background-image:url(../../icons/flags/zw.png); }
 	
 	.panel_login {
-		max-width: 80%;
-		min-width: 680px;
+		max-width: 440px;
+		min-width: 400px;
+		border: solid 1px #ccc;
+		padding: 10px;
+		margin: 0 auto;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.38);
+		-moz-box-shadow:    2px 2px 2px rgba(50, 50, 50, 0.38);
+		box-shadow:         2px 2px 2px rgba(50, 50, 50, 0.38);
 	}
+	.panel_login fieldset,.panel_login .ctrlHolder {
+		border: none;
+		padding: 0px;
+	}
+	.panel_login legend{
+		display: none;
+	}
+	.panel_login #username.textInput,.panel_login  #password.textInput,.panel_login  #passwort.textInput,.panel_login #source_password.textInput{
+		width: 98%;
+		display: block;
+		margin: 4px 0;
+		padding: 4px;
+	}
+	.panel_login .buttonHolder{
+		margin: 0px;
+	}
+	
 
 }
 
